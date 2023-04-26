@@ -1,0 +1,6 @@
+JTC 1000000
+1chooo	0
+1chooo	25
+fds	30
+sfd	0
+fdg	0
