@@ -6,3 +6,5 @@ ncurses 是一個在 UNIX-like 作業系統上用於編寫全螢幕文字介面�
 
 
 [NCURSES Programming HOWTO](https://tldp.org/HOWTO/NCURSES-Programming-HOWTO/index.html)
+
+https://www.youtube.com/watch?v=D-vx1_1Na3w&list=PL2U2TQ__OrQ8h6lz4VBRFF2uSW_RzWEBU

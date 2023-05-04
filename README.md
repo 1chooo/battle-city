@@ -1,16 +1,6 @@
 # Battle City
 
-Little fun game for MacOS.
-
-## Installation
-```shell
-git clone 
-```
-
-## Usage
-```shell
-$ cd 
-```
+Little fun terminal-style game for MacOS.
 
 ## Project Structure
 ```
@@ -19,17 +9,34 @@ PROJECT_ROOT
 │   ├── docs/
 │   ├── imgs/
 │   └── REFERENCE.md
+├── utils/
 ├── main.cpp
 ├── README.md
 └── LICENSE
 ```
 
-## How to compile
-```
-gcc -o main.out main.cpp -lncurses
-g++ -o main.out main.cpp -lncurses
+## Installation
+```shell
+$ git clone git@github.com:1chooo/battle-city.git
 ```
 
+## How to Use
+```shell
+$ cd battle-city
+$ ./build.sh
+```
+
+#### How to generate `build.sh`
+
+1. Modify the path in `build.sh`
+2. Give permission to `build.sh` by:
+    ```s
+    $ chmod +x build.sh
+    ```
+3. Run in terminal:
+    ```s
+    $ ./build.sh
+    ```
 ## [Reference](./assets/REFERENCE.md)
 
 ## License
