@@ -9,26 +9,53 @@ PROJECT_ROOT
 │   ├── docs/
 │   ├── imgs/
 │   └── REFERENCE.md
-├── utils/
-├── main.cpp
-├── README.md
-└── LICENSE
+├── bin/
+│   └── main.out
+├── include/
+│   ├── direction.h
+│   ├── game.h
+│   ├── role.h
+│   ├── rule.h
+│   └── welcome.h
+├── src/
+│   ├── game_rule.cpp
+│   ├── game.cpp
+│   ├── main.cpp
+│   ├── role.cpp
+│   ├── rule.cpp
+│   └── welcome.cpp
+├── test/
+│   ├──   :
+│   └──   :
+├── .gitignore
+├── build.sh
+├── LICENSE
+└── README.md
 ```
 
 ## Installation
+### With ssh
 ```shell
 $ git clone git@github.com:1chooo/battle-city.git
 ```
 
-## How to Use
+## How to Compile and Run
+### Use g++: 
 ```shell
-$ cd battle-city
-$ ./build.sh
+g++ -Iinclude -lncurses src/*.cpp -o bin/main.out && ./bin/main.out
+```
+
+### Use shell scripts:
+```shell
+./build.sh      # with shell scripts.
 ```
 
 #### How to generate `build.sh`
 
-1. Modify the path in `build.sh`
+1. Modify the content in `build.sh`
+    ```shell
+    g++ -Iinclude -lncurses src/*.cpp -o bin/main.out && ./bin/main.out
+    ```
 2. Give permission to `build.sh` by:
     ```s
     $ chmod +x build.sh
